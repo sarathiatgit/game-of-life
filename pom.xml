@@ -206,7 +206,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+	<repository>
+		<id>central</id>
+		<url>http://surf-maven-1.cisco.com:8081/nexus/content/repositories/cisco-central</url>
+	</repository>
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
